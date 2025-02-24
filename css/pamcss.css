@@ -1,0 +1,343 @@
+
+header {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    height: 10%;
+    position: relative;;
+    top: 0;
+    border: 5px;
+    border-style: outset;
+    border-radius: 10%;
+    background-color: rgb(210, 197, 177);
+    font-weight: 800;
+
+}
+
+#first{ display: inline-block;
+    
+    font-family: 'Calligraffitti';
+    position: relative;
+    left: 10%;}
+
+
+
+#head{ font-family: 'Calligraffitti';
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    display: inline-flex;
+
+    }
+
+.two{display: inline;}
+
+
+
+
+a {
+     text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+a:hover{ color: blue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+ }
+
+
+    
+    
+
+#iconic {
+
+    height: 45px;
+    border-radius: 20%;
+}
+
+
+
+main {
+    background-image: url(../pictures/background\ picture.jpg);
+     display: block;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: -16vh;
+     } 
+
+
+    
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5em 0;
+
+}
+
+.two:hover {
+    height: 10px;
+}
+
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    width: 100%;
+}
+
+#topimage {
+    display: inline;
+    position: relative;
+    top: 10%;
+    border-radius: 20%;
+}
+
+footer {
+    height: 16vh;
+    border-style: double;
+    background-color: rgb(210, 197, 177);
+    font-weight: 800;
+}
+
+#link:hover {
+    font-size: x-large;
+    color: black;
+}
+
+
+h4 {
+    display: inline;
+    margin-left: 5%;
+}
+
+
+#div1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+#div2 {
+    text-align: center;
+}
+
+button {
+    font-style: italic;
+display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+      background-color: white; 
+      border: none; /* Removes default border */
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Pointer cursor on hover */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth effects */
+}
+
+button:hover {
+    background-color: rgb(229, 203, 169);
+    transform: translateY(-2px); /* Slight upward movement */
+  }
+
+button:active {
+    transform: translateY(3px); /* Slight downward movement on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adjust shadow on click */
+  }
+
+.two:focus {
+    font-size: larger;
+}
+
+/* /* @media screen and (min-width:700px){
+#head{position: relative;
+    left: 25%;
+    bottom: -40px;}
+} */
+
+
+@media screen and (max-width:900px){
+
+    body{
+        background-color: antiquewhite;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    
+    
+    
+    #head{ font-family: 'Calligraffitti';
+        position: absolute;
+        right: 5%;
+        top: 60%;
+        }
+    
+     .two{display: inline-flex;
+         margin: 5px;
+        position: relative;
+        top: 20%;
+        left: 30%,}
+
+    #iconic{height: 30px;
+    position: relative;
+top: -20px;}
+    
+    
+    header {
+        display: grid;
+        grid-template-columns: 25% 65%;
+        background-color: white;
+        height: 10%;
+        position: relative;
+        top: 0;
+        border: 5px;
+        border-style: outset;
+        border-radius: 10%;
+        background-color: rgb(210, 197, 177);
+        font-size: xx-small;
+        font-weight: 800;
+    
+    }
+
+    footer{height: 20vh;}
+
+#first{
+    font-size: xx-small;
+    position: relative;
+    top: 10%;
+}
+#topimage{height: 30%;}
+
+main{min-height: fit-content;}
+}
+
+
+
+/* @media screen and (max-width:1300px) {
+
+    body{
+        background-color: antiquewhite;
+        margin: 0;
+        height: 100%;
+        width: 100;
+    }
+    
+    
+    
+    #head{ font-family: 'Calligraffitti';
+        position: relative;
+        left: 40%;
+        top: -15%;
+        font-size: small;
+        }
+    
+     .two{display: inline;
+         margin: 2%;
+         
+}
+    
+    }
+    header {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        background-color: white;
+        height: 10%;
+        position: relative;;
+        top: 0;
+        border: 5px;
+        border-style: outset;
+        border-radius: 10%;
+        background-color: rgb(210, 197, 177);
+    
+    } */
+/* @media screen and (max-width:950px) and (min-width: 700px){
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+#head{ font-family: 'Calligraffitti';
+    position: relative;
+    left: 10%;
+    font-size: small;
+    }
+
+ .two{display: inline;
+     margin: 2%;
+    position: relative;
+   
+    left: 20%,}
+
+}
+header {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    background-color: white;
+    height: 10%;
+    position: relative;;
+    top: 0;
+    border: 5px;
+    border-style: outset;
+    border-radius: 10%;
+    background-color: rgb(210, 197, 177);
+
+}
+
+@media screen and (min-width:1000px){
+
+    #head{ font-family: 'Calligraffitti';
+       position: relative;
+       left: 30%;
+       }
+       
+       
+   .two{display: inline;
+       margin: 2%;
+       position: relative;
+       top: 20%;
+       left: 20%,}
+   
+   header {
+       display: grid;
+       grid-template-columns: 45% 45%;
+       background-color: white;
+       height: 10%;
+       position: relative;;
+       top: 0;
+       border: 5px;
+       border-style: outset;
+       border-radius: 10%;
+       background-color: rgb(210, 197, 177);
+           
+   } */
+   
+    /* main {
+       background-image: url(../pictures/background\ picture.jpg);
+       display: block;
+       height: 80%;
+       text-align: center;
+       margin-top: -20px;
+   }
+   }
+
+    */
+
+
+        
+    
+
+
+     

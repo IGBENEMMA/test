@@ -1,0 +1,56 @@
+nav a{
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 25px;
+    display: inline-block;
+    height: 60px;
+    margin: 1%, 2%, 1% 8%;
+    padding: 1% 2%;
+    line-height: 45px;
+    position:     /*to center text */
+}
+
+body{
+    margin: 1%;
+    padding: 1%;
+}
+
+nav{
+    padding-left: 8%;
+    border: 1px solid;
+}
+
+@media all and (min-width: 900px) {
+
+    body{background-color: whitesmoke;}
+
+nav{display: inline-block;
+    width: 20%;
+    min-width: 125px;
+    padding-right: 5%;
+    padding-left: 0%;
+
+}
+
+nav a{
+    text-decoration: none;
+    background-color: rgb(177, 150, 114);
+    color: black;
+    display: block;
+    height: 40px;  
+    text-align: center;
+    margin: 1%;
+    width:80% ;
+   
+
+   /*to center text */
+}
+
+section{
+    display: inline-block;
+}
+    
+}
+
